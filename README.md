@@ -42,11 +42,7 @@ SELECT TOP 5 city, city_spend * 1.0 / total_spend * 100 AS percentage_contributi
 FROM A, B
 ORDER BY city_spend DESC;
 
-## **2️⃣ Find the Highest Spending Month for Each Card Type**
-### 📝 Problem Statement:
-Write a query to find the **month with the highest spend** for each `card_type`, along with the total amount spent in that month.
-
-### 💡 Solution:
+### **2️⃣ Highest Spending Month for Each Card Type**
 ```sql
 WITH cte AS (
     SELECT  
@@ -64,6 +60,7 @@ FROM (
     FROM cte
 ) A
 WHERE rn = 1;
+
 
 
 
