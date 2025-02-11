@@ -8,11 +8,6 @@ This project analyzes **credit card transactions** using SQL queries to derive i
 - Gender-wise spending contribution.
 - Month-over-month growth analysis.
 
-## 📂 Files Included  
-- **database.xlsx** → Contains raw transaction data (used to create the SQL table).  
-- **questions.txt** → Contains all problem statements.  
-- **queries.sql** → SQL solutions for each problem.  
-
 ---
 
 ## 📌 SQL Table Structure
